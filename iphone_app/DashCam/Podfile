@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+target "DashCam" do
+    pod 'AMPopTip' 
+end
+
+inhibit_all_warnings!

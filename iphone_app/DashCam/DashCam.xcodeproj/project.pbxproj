@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A55C29B31C305FE200A979F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C29B21C305FE200A979F9 /* main.m */; };
+		A55C29B61C305FE200A979F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C29B51C305FE200A979F9 /* AppDelegate.m */; };
+		A55C29B91C305FE200A979F9 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C29B81C305FE200A979F9 /* CameraViewController.m */; };
+		A55C29BE1C305FE200A979F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55C29BD1C305FE200A979F9 /* Assets.xcassets */; };
+		A55C29C11C305FE200A979F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55C29BF1C305FE200A979F9 /* LaunchScreen.storyboard */; };
+		A55C29CC1C305FE200A979F9 /* DashCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C29CB1C305FE200A979F9 /* DashCamTests.m */; };
+		A55C29D71C305FE200A979F9 /* DashCamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C29D61C305FE200A979F9 /* DashCamUITests.m */; };
+		A55C29E61C3062BA00A979F9 /* FileListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C29E51C3062BA00A979F9 /* FileListController.swift */; };
+		A55C29E91C3070E100A979F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55C29E71C3070E100A979F9 /* Main.storyboard */; };
+		A55C29F01C384FD500A979F9 /* DataHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C29EF1C384FD500A979F9 /* DataHolder.m */; };
+		A55C29F91C39B7D100A979F9 /* library2.png in Resources */ = {isa = PBXBuildFile; fileRef = A55C29F81C39B7D100A979F9 /* library2.png */; };
+		A55C29FB1C39B7D700A979F9 /* library1.png in Resources */ = {isa = PBXBuildFile; fileRef = A55C29FA1C39B7D700A979F9 /* library1.png */; };
+		A55C29FD1C39BEE500A979F9 /* library3.png in Resources */ = {isa = PBXBuildFile; fileRef = A55C29FC1C39BEE500A979F9 /* library3.png */; };
+		A55C29FF1C39BF7300A979F9 /* persist.png in Resources */ = {isa = PBXBuildFile; fileRef = A55C29FE1C39BF7300A979F9 /* persist.png */; };
+		A55C2A011C39C01900A979F9 /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = A55C2A001C39C01900A979F9 /* library.png */; };
+		A58D00701C53F51500959DB6 /* UIRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D006E1C53F51500959DB6 /* UIRecordButton.m */; };
+		A5C814EB1CC714D0006FBFB1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A5C814E01CC714D0006FBFB1 /* README.md */; };
+		EB37B902AABD8EA270E1741B /* Pods_DashCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEFC16D6C21881A6A0479C0 /* Pods_DashCam.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A55C29C81C305FE200A979F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55C29A61C305FE200A979F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55C29AD1C305FE200A979F9;
+			remoteInfo = DashCam;
+		};
+		A55C29D31C305FE200A979F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55C29A61C305FE200A979F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55C29AD1C305FE200A979F9;
+			remoteInfo = DashCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C7A2E8C40570ABD3814BB73 /* Pods-DashCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DashCam.release.xcconfig"; path = "Pods/Target Support Files/Pods-DashCam/Pods-DashCam.release.xcconfig"; sourceTree = "<group>"; };
+		7AEFC16D6C21881A6A0479C0 /* Pods_DashCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DashCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B531E09FFD9546A0166BDF /* Pods-DashCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DashCam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DashCam/Pods-DashCam.debug.xcconfig"; sourceTree = "<group>"; };
+		A55C29AE1C305FE200A979F9 /* DashCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DashCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55C29B21C305FE200A979F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A55C29B41C305FE200A979F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A55C29B51C305FE200A979F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A55C29B81C305FE200A979F9 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		A55C29BD1C305FE200A979F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A55C29C01C305FE200A979F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A55C29C21C305FE200A979F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55C29C71C305FE200A979F9 /* DashCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55C29CB1C305FE200A979F9 /* DashCamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashCamTests.m; sourceTree = "<group>"; };
+		A55C29CD1C305FE200A979F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55C29D21C305FE200A979F9 /* DashCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55C29D61C305FE200A979F9 /* DashCamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashCamUITests.m; sourceTree = "<group>"; };
+		A55C29D81C305FE200A979F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55C29E41C3062BA00A979F9 /* DashCam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DashCam-Bridging-Header.h"; sourceTree = "<group>"; };
+		A55C29E51C3062BA00A979F9 /* FileListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileListController.swift; sourceTree = "<group>"; };
+		A55C29E81C3070E100A979F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A55C29ED1C3773F600A979F9 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		A55C29EE1C384FD500A979F9 /* DataHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHolder.h; sourceTree = "<group>"; };
+		A55C29EF1C384FD500A979F9 /* DataHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHolder.m; sourceTree = "<group>"; };
+		A55C29F81C39B7D100A979F9 /* library2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library2.png; sourceTree = "<group>"; };
+		A55C29FA1C39B7D700A979F9 /* library1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library1.png; sourceTree = "<group>"; };
+		A55C29FC1C39BEE500A979F9 /* library3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library3.png; sourceTree = "<group>"; };
+		A55C29FE1C39BF7300A979F9 /* persist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = persist.png; sourceTree = "<group>"; };
+		A55C2A001C39C01900A979F9 /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
+		A58D006E1C53F51500959DB6 /* UIRecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRecordButton.m; sourceTree = "<group>"; };
+		A58D006F1C53F51500959DB6 /* UIRecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRecordButton.h; sourceTree = "<group>"; };
+		A5C814E01CC714D0006FBFB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A55C29AB1C305FE200A979F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB37B902AABD8EA270E1741B /* Pods_DashCam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55C29C41C305FE200A979F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55C29CF1C305FE200A979F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FA7CA06903A2582010363A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AEFC16D6C21881A6A0479C0 /* Pods_DashCam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A55C29A51C305FE200A979F9 = {
+			isa = PBXGroup;
+			children = (
+				A55C29B01C305FE200A979F9 /* DashCam */,
+				A55C29CA1C305FE200A979F9 /* DashCamTests */,
+				A55C29D51C305FE200A979F9 /* DashCamUITests */,
+				A55C29AF1C305FE200A979F9 /* Products */,
+				B72DBF5E57C46920DD32EA07 /* Pods */,
+				9FA7CA06903A2582010363A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A55C29AF1C305FE200A979F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55C29AE1C305FE200A979F9 /* DashCam.app */,
+				A55C29C71C305FE200A979F9 /* DashCamTests.xctest */,
+				A55C29D21C305FE200A979F9 /* DashCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55C29B01C305FE200A979F9 /* DashCam */ = {
+			isa = PBXGroup;
+			children = (
+				A58D006E1C53F51500959DB6 /* UIRecordButton.m */,
+				A58D006F1C53F51500959DB6 /* UIRecordButton.h */,
+				A55C29B41C305FE200A979F9 /* AppDelegate.h */,
+				A55C29B51C305FE200A979F9 /* AppDelegate.m */,
+				A55C29ED1C3773F600A979F9 /* CameraViewController.h */,
+				A55C29B81C305FE200A979F9 /* CameraViewController.m */,
+				A55C29BD1C305FE200A979F9 /* Assets.xcassets */,
+				A5C814E01CC714D0006FBFB1 /* README.md */,
+				A55C29F11C39B62D00A979F9 /* assets */,
+				A55C29BF1C305FE200A979F9 /* LaunchScreen.storyboard */,
+				A55C29E71C3070E100A979F9 /* Main.storyboard */,
+				A55C29C21C305FE200A979F9 /* Info.plist */,
+				A55C29B11C305FE200A979F9 /* Supporting Files */,
+				A55C29E51C3062BA00A979F9 /* FileListController.swift */,
+				A55C29E41C3062BA00A979F9 /* DashCam-Bridging-Header.h */,
+				A55C29EE1C384FD500A979F9 /* DataHolder.h */,
+				A55C29EF1C384FD500A979F9 /* DataHolder.m */,
+			);
+			path = DashCam;
+			sourceTree = "<group>";
+		};
+		A55C29B11C305FE200A979F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A55C29B21C305FE200A979F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A55C29CA1C305FE200A979F9 /* DashCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				A55C29CB1C305FE200A979F9 /* DashCamTests.m */,
+				A55C29CD1C305FE200A979F9 /* Info.plist */,
+			);
+			path = DashCamTests;
+			sourceTree = "<group>";
+		};
+		A55C29D51C305FE200A979F9 /* DashCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A55C29D61C305FE200A979F9 /* DashCamUITests.m */,
+				A55C29D81C305FE200A979F9 /* Info.plist */,
+			);
+			path = DashCamUITests;
+			sourceTree = "<group>";
+		};
+		A55C29F11C39B62D00A979F9 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A55C29FA1C39B7D700A979F9 /* library1.png */,
+				A55C29F81C39B7D100A979F9 /* library2.png */,
+				A55C29FE1C39BF7300A979F9 /* persist.png */,
+				A55C2A001C39C01900A979F9 /* library.png */,
+				A55C29FC1C39BEE500A979F9 /* library3.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		B72DBF5E57C46920DD32EA07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97B531E09FFD9546A0166BDF /* Pods-DashCam.debug.xcconfig */,
+				0C7A2E8C40570ABD3814BB73 /* Pods-DashCam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A55C29AD1C305FE200A979F9 /* DashCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55C29DB1C305FE200A979F9 /* Build configuration list for PBXNativeTarget "DashCam" */;
+			buildPhases = (
+				F7FFD374BB0DF11CF531DAB3 /* Check Pods Manifest.lock */,
+				A55C29AA1C305FE200A979F9 /* Sources */,
+				A55C29AB1C305FE200A979F9 /* Frameworks */,
+				A55C29AC1C305FE200A979F9 /* Resources */,
+				71C1D32AAF7175375C4C4092 /* Embed Pods Frameworks */,
+				B9F35E312329D0347B9DDCE2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DashCam;
+			productName = DashCam;
+			productReference = A55C29AE1C305FE200A979F9 /* DashCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A55C29C61C305FE200A979F9 /* DashCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55C29DE1C305FE200A979F9 /* Build configuration list for PBXNativeTarget "DashCamTests" */;
+			buildPhases = (
+				A55C29C31C305FE200A979F9 /* Sources */,
+				A55C29C41C305FE200A979F9 /* Frameworks */,
+				A55C29C51C305FE200A979F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55C29C91C305FE200A979F9 /* PBXTargetDependency */,
+			);
+			name = DashCamTests;
+			productName = DashCamTests;
+			productReference = A55C29C71C305FE200A979F9 /* DashCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A55C29D11C305FE200A979F9 /* DashCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55C29E11C305FE200A979F9 /* Build configuration list for PBXNativeTarget "DashCamUITests" */;
+			buildPhases = (
+				A55C29CE1C305FE200A979F9 /* Sources */,
+				A55C29CF1C305FE200A979F9 /* Frameworks */,
+				A55C29D01C305FE200A979F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55C29D41C305FE200A979F9 /* PBXTargetDependency */,
+			);
+			name = DashCamUITests;
+			productName = DashCamUITests;
+			productReference = A55C29D21C305FE200A979F9 /* DashCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55C29A61C305FE200A979F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "George Balayan";
+				TargetAttributes = {
+					A55C29AD1C305FE200A979F9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BEFQLCRJFC;
+					};
+					A55C29C61C305FE200A979F9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A55C29AD1C305FE200A979F9;
+					};
+					A55C29D11C305FE200A979F9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A55C29AD1C305FE200A979F9;
+					};
+				};
+			};
+			buildConfigurationList = A55C29A91C305FE200A979F9 /* Build configuration list for PBXProject "DashCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A55C29A51C305FE200A979F9;
+			productRefGroup = A55C29AF1C305FE200A979F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A55C29AD1C305FE200A979F9 /* DashCam */,
+				A55C29C61C305FE200A979F9 /* DashCamTests */,
+				A55C29D11C305FE200A979F9 /* DashCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A55C29AC1C305FE200A979F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55C29F91C39B7D100A979F9 /* library2.png in Resources */,
+				A55C29E91C3070E100A979F9 /* Main.storyboard in Resources */,
+				A55C29FD1C39BEE500A979F9 /* library3.png in Resources */,
+				A55C29C11C305FE200A979F9 /* LaunchScreen.storyboard in Resources */,
+				A55C2A011C39C01900A979F9 /* library.png in Resources */,
+				A55C29FB1C39B7D700A979F9 /* library1.png in Resources */,
+				A55C29FF1C39BF7300A979F9 /* persist.png in Resources */,
+				A55C29BE1C305FE200A979F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55C29C51C305FE200A979F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55C29D01C305FE200A979F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71C1D32AAF7175375C4C4092 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DashCam/Pods-DashCam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F35E312329D0347B9DDCE2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DashCam/Pods-DashCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7FFD374BB0DF11CF531DAB3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A55C29AA1C305FE200A979F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55C29F01C384FD500A979F9 /* DataHolder.m in Sources */,
+				A55C29B91C305FE200A979F9 /* CameraViewController.m in Sources */,
+				A58D00701C53F51500959DB6 /* UIRecordButton.m in Sources */,
+				A5C814EB1CC714D0006FBFB1 /* README.md in Sources */,
+				A55C29B61C305FE200A979F9 /* AppDelegate.m in Sources */,
+				A55C29B31C305FE200A979F9 /* main.m in Sources */,
+				A55C29E61C3062BA00A979F9 /* FileListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55C29C31C305FE200A979F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55C29CC1C305FE200A979F9 /* DashCamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55C29CE1C305FE200A979F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55C29D71C305FE200A979F9 /* DashCamUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A55C29C91C305FE200A979F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55C29AD1C305FE200A979F9 /* DashCam */;
+			targetProxy = A55C29C81C305FE200A979F9 /* PBXContainerItemProxy */;
+		};
+		A55C29D41C305FE200A979F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55C29AD1C305FE200A979F9 /* DashCam */;
+			targetProxy = A55C29D31C305FE200A979F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A55C29BF1C305FE200A979F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55C29C01C305FE200A979F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A55C29E71C3070E100A979F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55C29E81C3070E100A979F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A55C29D91C305FE200A979F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A55C29DA1C305FE200A979F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A55C29DC1C305FE200A979F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B531E09FFD9546A0166BDF /* Pods-DashCam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DashCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DashCam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DashCam/DashCam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A55C29DD1C305FE200A979F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7A2E8C40570ABD3814BB73 /* Pods-DashCam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DashCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DashCam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DashCam/DashCam-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A55C29DF1C305FE200A979F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DashCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DashCamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DashCam.app/DashCam";
+			};
+			name = Debug;
+		};
+		A55C29E01C305FE200A979F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DashCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DashCamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DashCam.app/DashCam";
+			};
+			name = Release;
+		};
+		A55C29E21C305FE200A979F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DashCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DashCamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DashCam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A55C29E31C305FE200A979F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DashCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DashCamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DashCam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A55C29A91C305FE200A979F9 /* Build configuration list for PBXProject "DashCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55C29D91C305FE200A979F9 /* Debug */,
+				A55C29DA1C305FE200A979F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55C29DB1C305FE200A979F9 /* Build configuration list for PBXNativeTarget "DashCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55C29DC1C305FE200A979F9 /* Debug */,
+				A55C29DD1C305FE200A979F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55C29DE1C305FE200A979F9 /* Build configuration list for PBXNativeTarget "DashCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55C29DF1C305FE200A979F9 /* Debug */,
+				A55C29E01C305FE200A979F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55C29E11C305FE200A979F9 /* Build configuration list for PBXNativeTarget "DashCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55C29E21C305FE200A979F9 /* Debug */,
+				A55C29E31C305FE200A979F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A55C29A61C305FE200A979F9 /* Project object */;
+}

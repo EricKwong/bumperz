@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NeS-p6-tuX">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CameraViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAy-ip-UBH" userLabel="Persist Button">
+                                <rect key="frame" x="50" y="519" width="85" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="W5F-qU-iqr"/>
+                                    <constraint firstAttribute="width" constant="85" id="lrC-Xt-YUY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Archive">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="93" y="347" width="89" height="33"/>
+                                </variation>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="528" width="83" height="30"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="77" y="286" width="83" height="30"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="181" y="336" width="83" height="41"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="42" y="445" width="83" height="41"/>
+                                </variation>
+                                <connections>
+                                    <action selector="persistVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lpg-K3-YEg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEj-Hz-PrK" customClass="UIRecordButton">
+                                <rect key="frame" x="265" y="509" width="70" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="3Bp-tx-rsl"/>
+                                    <constraint firstAttribute="width" constant="70" id="b13-4o-zae" userLabel="width = 90"/>
+                                </constraints>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="272" y="330" width="70" height="70"/>
+                                </variation>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="180" y="508" width="70" height="70"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="237" y="246" width="70" height="70"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="363" y="322" width="70" height="70"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="170" y="431" width="70" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="record:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xzg-XT-tr0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWI-uf-ejy">
+                                <rect key="frame" x="465" y="519" width="85" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="930-X7-i7Q"/>
+                                    <constraint firstAttribute="width" constant="85" id="l2N-Mj-eTB" userLabel="width = 90"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Videos">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="429" y="349" width="96" height="30"/>
+                                </variation>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="297" y="528" width="83" height="30"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="354" y="286" width="83" height="30"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="527" y="336" width="83" height="41"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="276" y="451" width="83" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="showVideos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jto-Xk-ndb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jAy-ip-UBH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="1Y0-D3-v1f"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tEj-Hz-PrK" secondAttribute="bottom" constant="50" id="CUy-V4-ZPo"/>
+                            <constraint firstItem="tEj-Hz-PrK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X7c-3v-Hqs"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jAy-ip-UBH" secondAttribute="bottom" constant="40" id="tyR-hD-5Ze"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GWI-uf-ejy" secondAttribute="trailing" constant="30" id="vhE-L9-sgl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GWI-uf-ejy" secondAttribute="bottom" constant="40" id="x69-cw-NAm"/>
+                        </constraints>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <include reference="jAy-ip-UBH"/>
+                                <include reference="tEj-Hz-PrK"/>
+                                <include reference="GWI-uf-ejy"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="jAy-ip-UBH"/>
+                                <include reference="tEj-Hz-PrK"/>
+                                <include reference="GWI-uf-ejy"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="LgV-Nj-cJN"/>
+                    <connections>
+                        <outlet property="persistButton" destination="jAy-ip-UBH" id="ayK-kc-s7G"/>
+                        <outlet property="recordButton" destination="tEj-Hz-PrK" id="EeD-xO-D3f"/>
+                        <outlet property="videosButton" destination="GWI-uf-ejy" id="Msf-KJ-lnT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1248" y="1122"/>
+        </scene>
+        <!--Videos-->
+        <scene sceneID="I8h-Hf-kkR">
+            <objects>
+                <tableViewController storyboardIdentifier="FileListController" title="Videos" id="v61-Ob-uf4" customClass="FileListController" customModule="DashCam" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="UUk-W5-O9U">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="videoItemCellId" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoItemCellId" id="wcj-kX-nrY">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wcj-kX-nrY" id="Rez-9T-RYQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="v61-Ob-uf4" id="rlG-RI-kbH"/>
+                            <outlet property="delegate" destination="v61-Ob-uf4" id="mE7-y9-DQn"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KOB-Yv-JM7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2101.5" y="1124"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0Z7-U1-iUN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NeS-p6-tuX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tVp-W7-lya">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fC2-Wb-ytj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c0P-Yc-NkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="425" y="1124"/>
+        </scene>
+    </scenes>
+</document>
