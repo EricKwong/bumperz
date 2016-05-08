@@ -1,0 +1,51 @@
+console.log('app.js!!!');
+
+// Notification for getting geolocation and displaying warning when in radius of accident zones
+
+// setInterval(function(){
+//   navigator.geolocation.getCurrentPosition(function(position) {
+//     var latitude = position.coords.latitude;
+//     var longitude = position.coords.longitude;
+//     $.get('https://bumperz.herokuapp.com/accidents/warn_level', {latitude: latitude, longitude: longitude}).done(function(res) {
+//       console.log(res);
+//       if (res.warning == "yellow") {
+//         notie.alert(2, 'Accident Warning: You are in an accident ' + res.warning + ' zone.', 2);
+//       } else if (res.warning == "orange") {
+//         notie.alert(2, 'Accident Warning: You are in an accident ' + res.warning + ' zone.', 2);
+//       } else if (res.wanring == "red") {
+//         notie.alert(3, 'Accident Warning: You are in an accident ' + res.warning + ' zone.', 2);
+//       }
+//     });
+//   });
+// }, 5000);
+
+// Hard coded pop up notifications
+
+$('#bggif').click(function() {
+
+  var audio = document.getElementById('micro');
+  audio.play();
+  
+  $('#bggif').unbind("click").click(function() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', "<%= asset_path('medium.mp3')%>", true);
+    xhr.responseType = 'blob';
+    xhr.onload = function () {
+      audio.src = URL.createObjectURL(xhr.response);  
+      audio.play();
+      notie.alert(2, 'Accident Warning: You are now entering a medium accident zone', 4);
+      $('#bggif').unbind("click").click(function() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', "<%= asset_path('high.mp3')%>", true);
+        xhr.responseType = 'blob';
+        xhr.onload = function () {
+          audio.src = URL.createObjectURL(xhr.response);  
+          audio.play();
+          notie.alert(3, 'Accident Warning: You are now entering a high accident zone', 4);
+        };
+        xhr.send();
+      });
+    };
+    xhr.send();
+  });
+});

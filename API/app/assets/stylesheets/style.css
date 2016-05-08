@@ -1,0 +1,32 @@
+html {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  left: 0px;
+  top: 0px;
+  z-index: -1000;
+  overflow: hidden;
+}
+
+video#bgvid {
+  min-height: 100%;
+  min-width:100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#bggif {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

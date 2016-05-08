@@ -1,0 +1,9 @@
+== Bumperz
+
+Seed
+
+download the data csv from <tt>https://data.cityofnewyork.us/api/views/h9gi-nx95/rows.csv?accessType=DOWNLOAD</tt> and name it <tt>nyc_accident_data.csv</tt>
+
+put the csv file in <tt>lib/seeds</tt> folder
+
+run <tt>rake csv:import_accidents</tt> to seed data
